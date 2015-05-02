@@ -17,6 +17,7 @@ public class Quadrangle {
 		q.draw(new Square()); // 以正方形对象为参数调用draw()方法
 		// 以平行四边形对象为参数调用draw()方法
 		q.draw(new Parallelogramgle());
+		q.draw(new Parallelogramgle2());
 	}
 }
 
@@ -30,5 +31,12 @@ class Square extends Quadrangle { // 定义一个正方形类，继承四边形类
 class Parallelogramgle extends Quadrangle {
 	public Parallelogramgle() {
 		System.out.println("平行四边形");
+	}
+}
+
+//定义一个平行四边形类，继承四边形类
+class Parallelogramgle2 extends Quadrangle {
+	public Parallelogramgle2() {
+		System.out.println("平行四边形2");
 	}
 }

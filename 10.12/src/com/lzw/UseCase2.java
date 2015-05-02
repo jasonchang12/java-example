@@ -8,7 +8,7 @@ public class UseCase2 {
 		System.out.println("父类.doAnything()");
 	}
 	public static void main(String args[]){
-		UseCase2 u=new sub();
+		UseCase2 u=new sub(); //向上转型
 		u.doSomething();
 		u.doAnything();
 	}

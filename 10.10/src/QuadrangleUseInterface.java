@@ -37,8 +37,7 @@ public class QuadrangleUseInterface { // 定义四边形类
 	}
 	
 	public static void main(String[] args) {
-		drawTest[] d = { // 接口也可以进行向上转型操作
-		new SquareUseInterface(), new ParallelogramgleUseInterface() };
+		drawTest[] d = {new SquareUseInterface(), new ParallelogramgleUseInterface() };// 接口也可以进行向上转型操作
 		for (int i = 0; i < d.length; i++) {
 			d[i].draw(); // 调用draw()方法
 		}

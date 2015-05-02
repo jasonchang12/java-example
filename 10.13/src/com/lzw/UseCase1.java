@@ -18,5 +18,6 @@ class Atest extends UseCase1{
 	}
 	public Atest(){//（3）调用子类构造方法
 		System.out.println(i);
+		this.testAbstract();
 	}
 }
